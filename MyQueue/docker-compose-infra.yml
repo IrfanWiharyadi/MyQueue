@@ -1,0 +1,8 @@
+version: '2.4'
+
+services:
+
+  aws.bus:
+    image: pafortin/goaws:latest
+    ports:
+      - "4100:4100"
